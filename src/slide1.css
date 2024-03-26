@@ -1,0 +1,74 @@
+.home {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-flex;
+    font-style: italic;
+    font-weight: 600;
+}
+.bike {
+    width: 40%;
+}
+.team {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 40%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(230, 61, 61, 0.33);
+}
+.comareImg{
+    width: 70%;
+    height: 100%;
+}
+.comapre {
+    font-style: italic;
+    font-weight: 600;
+}
+.about {
+    display: inline-flex;
+    justify-content: space-evenly;
+    font-style: italic;
+    font-weight: bold;
+}
+.para {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.vision{
+    display: inline-flex;
+    justify-content: space-evenly;
+    font-style: italic;
+    font-weight: bold;
+}
+.contact {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.text {
+    text-decoration: none;
+}
+@media only screen and (max-width: 500px) {
+    .bike {
+        width: 60%;
+    }
+    .home {
+        display: block;
+    }
+    .para {
+        padding-top: 0;
+    }
+    .about {
+        display: block;
+    }
+    .vision {
+        display: flex ;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+    }
+}
+.underline {
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}

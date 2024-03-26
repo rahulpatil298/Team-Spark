@@ -1,0 +1,27 @@
+.video-container {
+    
+    margin-right: 20px;
+    margin-left: 30px;
+    position: relative;
+    width: 210px;
+    height: 70px;
+    padding-top: 40%; /* 15:6 aspect ratio (6/15 * 100) */
+  }
+  
+  .video-container video {
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:inherit /* Optional: maintain aspect ratio */
+  }
+  @media only screen and (max-width: 500px) {
+    .video-container {
+      margin-left: 15%;
+      margin-right: 15%;
+      width: 70%;
+      height: 400px;
+    }
+  }
