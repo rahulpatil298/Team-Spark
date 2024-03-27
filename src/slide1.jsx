@@ -10,19 +10,20 @@ function Slide() {
     return(
         <>
         <div className="home" id="home">
-            <img src={bikeImg} alt="bike.png" className="bike"/>
-            <p className="para">Welcome to Team Spark Ignited's Home Page!<br></br> Discover innovation in motion with our <br></br>radical electric two-wheeler. 
-                Join us on the journey <br></br>towards a greener and more sustainable future. Explore our vision, <br></br>meet the team, 
+            <p>HOME PAGE<br></br><span className="span">SPARK IGNITED</span></p>
+            <p className="para">Welcome to Team Spark Ignited's Home Page! Discover innovation in motion with our radical<br></br> electric two-wheeler. 
+                Join us on the journey towards a greener and more sustainable future. Explore our<br></br> vision, meet the team, 
                 and experience the future of urban mobility.</p>
+            <img src={bikeImg} alt="bike.png" className="bike"/>
         </div>
 
         
         <div className="about" id="about">
-            <p><ul className="underline">About us</ul><br></br>Team Spark Ignited is a dynamic group of ten talented students who have achieved <br></br> a remarkable feat by creating an innovative electric two-wheeler. We showcase a blend of<br></br> creativity, engineering excellence, and a commitment to sustainable<br></br> transportation. Our remarkable team has harnessed collective expertise <br></br>to develop a cutting-edge solution that promises to revolutionize urban mobility.</p>
+            <p><ul className="underline">About us</ul><br></br>Team Spark Ignited is a dynamic group of ten<br></br>  talented students who have achieved a remarkable feat<br></br> by creating an innovative electric two-wheeler. We showcase a blend of creativity, engineering excellence,<br></br>  and a commitment to sustainable transportation. Our remarkable<br></br> team has harnessed collective expertise to develop a cutting-edge <br></br>solution that promises to revolutionize urban mobility.</p>
             
             <img src={teamImg} alt="teamImg" className="team" />
         </div>
-<hr></hr>
+<br></br><br></br><br></br>
         <div className="vision" id="vision"> 
         <p><ul className="underline">Our Vision</ul><br></br>The vision of "Team Spark Ignited" is to be a<br></br> dynamic, forward-thinking, and innovative team that consistently<br></br> sparks positive change and inspires breakthroughs in our chosen field. We<br></br> aim to ignite creativity, enthusiasm, and<br></br> determination in all our endeavors, <br></br>bringing fresh perspectives and solutions to<br></br> the forefront. We aspire to be recognized as a team that consistently <br></br>rises to meet challenges head-on, setting <br></br>a shining example of collaboration, excellence, and <br></br>perseverance. Our vision is to <br></br>leave a lasting impact on our industry, community, and the world <br></br>at large, driven by the spark of our shared passion <br></br>for innovation and progress.</p>
         <VideoComponent />
