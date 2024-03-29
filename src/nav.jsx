@@ -9,7 +9,7 @@ function Nav() {
             <div></div>
             <label htmlFor="menu-toggle" className="menu-icon">&#9776;</label>
             <ul className="menu">
-                <li id='three'><label htmlFor="menu-toggle" className="menu-icon">&#9776;</label></li>
+                <li id='three'><label htmlFor="menu-toggle" className="menu-icon">&#10006;</label></li>
                 <li id='listitem'><a href="#home">Home</a></li>
                 <li id='listitem'><a href="#about">About</a></li>
                 <li id='listitem'><a href="#vision">Vision</a></li>

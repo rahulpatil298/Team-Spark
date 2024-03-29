@@ -7,6 +7,7 @@ const ImageComponent = () => {
     <div className="image-container">
         <img src="https://codemaster00001.github.io/Spark-Ignited/team2.jpeg" alt="Description of the image" className="responsive-image" />
     </div>
+   <hr></hr>
     <div className="image-container">
         <img src="https://codemaster00001.github.io/Spark-Ignited/team1.jpeg" alt="Description of the image" className="responsive-image" />
     </div>

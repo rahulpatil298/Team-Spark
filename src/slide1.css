@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
+
 .home {
     background-image: url(https://images.pexels.com/photos/281260/pexels-photo-281260.jpeg?cs=srgb&dl=pexels-francesco-ungaro-281260.jpg&fm=jpg);
     background-size:cover;
     background-position: center;
-    padding-top: 2px;
+    padding-top: 30px;
     padding-bottom: 60px;
     display: block;
     font-family:sans-serif;
@@ -13,10 +15,18 @@
     font-weight: 600;
 }
 .bike {
+   /* opacity: 0.5; */
     width: 30%;
 }
+.backbike{
+    opacity: 0.7;
+    width: 12%;
+    padding-bottom: 10%;
+   
+    
+}
 .team {
-    margin: 7px 7px 7px 7px;
+    margin: 7px 20px 7px 20px;
     width: 40%;
     border-radius: 5px;
     box-shadow: 2px 2px 4px rgba(230, 61, 61, 0.33);
@@ -25,16 +35,22 @@
     width: 70%;
     height: 100%;
 }
-.comapre {
-    font-style: italic;
-    font-weight: 600;
+.comparison{
+    border-radius: 10px;
+    margin: 0px 4% 0px 4%;
+    padding: 15px 15px 15px 15px;
+    background-color: rgb(176, 184, 190, 0.5);
+    display: block;
+    justify-content: space-evenly;
 }
 .about {
     border-radius: 10px;
-    margin: 7px 15% 7px 15%;
-    background-color: rgb(247, 251, 254);
+    margin: 25px 4% 0px 4%;
+    padding: 15px 15px 15px 15px;
+    background-color: rgb(176, 184, 190, 0.5);
     display: inline-flex;
     justify-content: space-evenly;
+    text-align: left;
 }
 .para {
     font-size: small;
@@ -43,18 +59,35 @@
     padding-bottom: 0px;
 }
 .vision{
+    border-radius: 10px;
+    margin: 0 4% 25px 4%;
+    padding: 15px 15px 15px 15px;
+    background-color: rgb(176, 184, 190, 0.5);
     display: inline-flex;
     justify-content: space-evenly;
-    font-style: italic;
-    font-weight: bold;
+    text-align: left;
 }
-.contact {
-    padding-top: 10px;
-    padding-bottom: 15px;
+.teamdetails {
+    border-radius: 10px;
+    margin: 0 4% 25px 4%;
+    padding: 15px 15px 15px 15px;
+    background-color: rgb(176, 184, 190, 0.5);
 }
-.text {
+
+.linktext {
     text-decoration: none;
 }
+.text-container {
+    font-family:sans-serif;
+    margin: 5px 15px 5px 15px;
+    width: 50%;
+    text-align: justify;
+}
+.text{
+    font-family:sans-serif;
+    text-align: justify;
+}
+
 @media only screen and (max-width: 500px) {
     .bike {
         width: 60%;
@@ -73,11 +106,76 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-
     }
+    .footer-content {
+        flex-direction: column;
+    }
+    .text-container{
+        width: 100%;
+      margin: auto;
+    }
+    .team {
+        width: 80%;
+    }
+    
+    
 }
 .underline {
-    text-decoration: underline;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 700;
+    font-family: inherit;
+   
+    font-weight: 600;
+    color: inherit;
+    line-height: inherit;
+    text-align: left;
 }
+
+footer {
+    background-color: #181E22;
+    color: white;
+    padding: 20px 10px 0px 10px;
+  /* text-align: start; */
+    
+  }
+  
+  .footer-content {
+    font-family:sans-serif;
+    font-size: small;
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+  
+  .footer-item {
+    display: inline-block;
+    overflow-wrap: break-word;
+    margin: 0 10px; /* Optional: Add spacing between items */
+  }
+  .social-icons {
+    display: inline-block;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    margin-left: 5px;
+  }
+  
+  .social-icon img {
+    width: 20px; /* Adjust the size of the icons as needed */
+    height: 20px;
+    border-radius: 2px;
+  }
+  .copyright {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    border-top: 1px solid rgb(230, 232, 235, .2);
+    font-family: "Josefin Sans", sans-serif;
+    box-sizing: border-box;
+  }
+  .innercopy {
+    color: rgba(214, 225, 234, .7);
+    font-size: 8px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
